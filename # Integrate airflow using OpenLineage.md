@@ -24,17 +24,14 @@ Data consumers (business stakeholders) lacks visibility into the operational asp
  
  
 
-## Future Goals
-
-Product and technical requirements slated for a future time
 
 ## Assumptions
 
- - Airflow enabled with OpenLineage
+ - Airflow system available with OpenLineage enabled
+ - Integration of Airflow with Atlan for other artifacts except operational details
 
 
 ### Suggested or Proposed Solution / Design
-
 
 
 External components that the solution will interact with and that it will alter
@@ -80,7 +77,7 @@ QA
 
 Logging plan and tools
 Monitoring plan and tools
-Metrics to be used to measure health
+Metrics to be used to measure health    
 How to ensure observability
 Alerting plan and tools
 
