@@ -5,16 +5,16 @@ Integrate Airflow into Atlan using OpenLineage
 
 ## Background
 
-Airflow, as a workflow orchestration platform, empowers data engineers to create and oversee their data pipelines. However, addressing runtime issues and outages in complex pipelines becomes a humongous task without easily accessible traceability. When a pipeline malfunctions, data engineers are forced to respond manually, leading to increased data downtime, hence big probability of business impact.
+Airflow, as a workflow orchestration platform, empowers data engineers to create and oversee their data pipelines. However, addressing runtime issues and outages in complex pipelines becomes a humongous task without easily accessible traceability. When a pipeline malfunctions, data engineers are forced to respond manually, leading to increased data downtime, hence a big probability of business impact.
 
-Data consumers (business stakeholders) lacks visibility into the operational aspects of upstream data sets, including job frequency, processing duration and other data quality metrics. The absence of transparency in data pipelines and their downstream utilization gives rise to trust issues concerning the data's reliability.
+Data consumers (business stakeholders) lack visibility into the operational aspects of upstream data sets, including job frequency, processing duration and other data quality metrics. The absence of transparency in data pipelines and their downstream utilization gives rise to trust issues concerning the data's reliability.
 
 
 ## Goals
 
  - Collect operational metadata from Airflow DAGs for visualization in Atlan.
- - Offer visibility into operational flow within Atlan's lineage to enhance understanding of pipeline issues.
- - Enable Data Engineers to effectively troubleshoot data flow pipeline issues, reducing both mean time to detect and mean time to resolve data-related problems.
+ - Offer visibility into the operational flow within Atlan's lineage to enhance understanding of pipeline issues.
+ - Enable Data Engineers to effectively troubleshoot data flow pipeline issues, reducing both the mean time to detect and the mean time to resolve data-related problems.
  - Gain a deeper understanding of the timeliness and reliability of source and target data to boost confidence in data integrity.
 
 
@@ -32,6 +32,8 @@ Data consumers (business stakeholders) lacks visibility into the operational asp
 
 
 ### Suggested or Proposed Solution / Design
+
+![High-level](image.png)
 
 External components that the solution will interact with and that it will alter
 Dependencies of the current solution
