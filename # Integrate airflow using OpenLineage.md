@@ -33,7 +33,6 @@ Data consumers (business stakeholders) lacks visibility into the operational asp
 
 ### Suggested or Proposed Solution / Design
 
-
 External components that the solution will interact with and that it will alter
 Dependencies of the current solution
 Pros and cons of the proposed solution
@@ -156,6 +155,12 @@ How will we ensure that the users are satisfied with the solution and can intera
 Who is responsible for the maintenance of the solution?
 How will knowledge transfer be accomplished if the project owner is unavailable?
 ## Success Evaluation
+
+Here are the metrics that can be used to evaluate the success of the integration
+ - Declining trend of time to relief to identify issues in data pipelines
+ - Reduction in queries to data engineers from the users about the status of the pipeline
+
+
 a. Impact
 
 Security impact
